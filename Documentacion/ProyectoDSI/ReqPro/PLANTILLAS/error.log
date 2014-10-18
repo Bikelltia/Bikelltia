@@ -1,0 +1,272 @@
+
+
+
+TIME:    	Friday 03/10/2014 18:09:30
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>anyDocumentModified
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose
+[] in RqPreRequisiteApp>>okToClose
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>okToClose
+[] in RqPreRequisiteApp>>projExit
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>closingDownFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projExit
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:10:27
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocOrNonDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>updateDocumentStatus
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>verifyDocuments
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>checkWinWordOpen
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>docDoNewInsertToDB: <aTrue> owner: <aRqMDIFrame> fromExisting: <anUndefinedObject> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>docDoNewInsertToDB: <aTrue> owner: <aRqMDIFrame> 
+[] in RqPreRequisiteApp>>docNew:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>docNew: <aRqMDIFrame> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>docNew
+RqExplorerPane>>documentCreate
+RqExplorerPane(Object)>>perform: <#documentCreate> 
+MenuWindow>>performMenuItem: <770> 
+Menu>>performMenuItem: <770> 
+RqPackagePane(SubPane)>>performMenuItem: <770> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:11:04
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>anyDocumentModified
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose
+[] in RqPreRequisiteApp>>okToClose
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>okToClose
+[] in RqPreRequisiteApp>>projExit
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>closingDownFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projExit
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:11:12
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>anyDocumentModified
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose
+[] in RqPreRequisiteApp>>okToClose
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>okToClose
+[] in RqPreRequisiteApp>>projExit
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>closingDownFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projExit
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:11:27
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>anyDocumentModified
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose
+[] in RqPreRequisiteApp>>okToClose
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>okToClose
+[] in RqPreRequisiteApp>>projExit
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>closingDownFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projExit
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:11:34
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: "asUpperCase" not understood
+
+MessageNotUnderstood>>defaultAction
+MessageNotUnderstood(Exception)>>activateHandler: <anUndefinedObject> 
+MessageNotUnderstood(Exception)>>handle
+MessageNotUnderstood(Exception)>>signal
+MessageNotUnderstood class>>message: <aMessage> 
+OLEDispatchError(Object)>>doesNotUnderstand: <aMessage> 
+RqWinWordApp>>currentDocFileName
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>curDocMgr
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>anyDocumentModified
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projDoClose
+[] in RqPreRequisiteApp>>okToClose
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>okToClose
+[] in RqPreRequisiteApp>>projExit
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>closingDownFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>projExit
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+
+TIME:    	Friday 03/10/2014 18:12:50
+PRODUCT:	Rational RequisitePro (version 9.0.0.1)
+SYSTEM:  	WindowsNT (version 5.1, build 2600 Service Pack 3, España)
+------------------------------------------------------------------------
+Runtime error: the collection is empty
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'the collection is em...'> 
+String(Object)>>error: <'the collection is em...'> 
+String(IndexedCollection)>>accessEmptyCollection
+String(IndexedCollection)>>last
+RqDocumentManager(RqAbstractDocumentManager)>>excludeTrailingCr
+[] in RqPreRequisiteApp>>reqCreate:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>ensure: <aBlockClosure> 
+RqWinWordApp>>lockAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>lockWinWordAccessFor: <aBlockClosure> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>reqCreate: <aFalse> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>reqCreateInDoc
+RqPreRequisiteAppNT(Object)>>perform: <#reqCreateInDoc> 
+RqPreRequisiteAppNT(RqPreRequisiteApp)>>wordCmdExecutedForked: <100> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
