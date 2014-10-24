@@ -38,8 +38,9 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['default_controller'] 	= "welcome";
+$route['login/usuario'] 		= "c_usuario/iniciarSesion";
+$route['404_override'] 			= '';
 
 
 /* End of file routes.php */
