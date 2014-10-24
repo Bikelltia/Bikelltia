@@ -50,10 +50,10 @@ ENGINE = InnoDB;
 -- Table `Bikelltia`.`perfilPermiso`
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `Bikelltia`.`perfilPermiso` (
-  `descripcion` VARCHAR(100) NULL ,
-  `estadoPerfilPermiso` BIT NULL DEFAULT 1 ,
   `idPermiso` INT NOT NULL ,
   `idPerfil` INT NOT NULL ,
+  `descripcion` VARCHAR(100) NULL ,
+  `estadoPerfilPermiso` BIT NULL DEFAULT 1 ,
   PRIMARY KEY (`idPermiso`, `idPerfil`) ,
   INDEX `fk_perfilPermiso_permisos1_idx` (`idPermiso` ASC) ,
   INDEX `fk_perfilPermiso_perfil1_idx` (`idPerfil` ASC) ,
@@ -146,9 +146,9 @@ ENGINE = InnoDB;
 -- Table `Bikelltia`.`detalleOrden`
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `Bikelltia`.`detalleOrden` (
-  `cantidad` INT NULL ,
   `idOrden` INT NOT NULL ,
   `idProducto` INT NOT NULL ,
+  `cantidad` INT NULL ,
   PRIMARY KEY (`idOrden`, `idProducto`) ,
   INDEX `fk_detalleOrden_orden1_idx` (`idOrden` ASC) ,
   INDEX `fk_detalleOrden_producto1_idx` (`idProducto` ASC) ,
@@ -202,10 +202,10 @@ ENGINE = InnoDB;
 -- Table `Bikelltia`.`productoPromocion`
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `Bikelltia`.`productoPromocion` (
-  `descripcion` VARCHAR(100) NULL ,
-  `estadoProductoPromocion` BIT NULL DEFAULT 1 ,
   `idProducto` INT NOT NULL ,
   `idPromocion` INT NOT NULL ,
+  `descripcion` VARCHAR(100) NULL ,
+  `estadoProductoPromocion` BIT NULL DEFAULT 1 ,
   PRIMARY KEY (`idProducto`, `idPromocion`) ,
   INDEX `fk_productoPromocion_promocion1_idx` (`idPromocion` ASC) ,
   CONSTRAINT `fk_productoPromocion_producto1`
@@ -220,9 +220,49 @@ CREATE  TABLE IF NOT EXISTS `Bikelltia`.`productoPromocion` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+
+-- -----------------------------------------------------
+-- Table `Bikelltia`.`multimedia`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `Bikelltia`.`multimedia` (
+  `idmultimedia` INT NOT NULL ,
+  `ruta` VARCHAR(300) NULL ,
+  `idProducto` INT NOT NULL ,
+  PRIMARY KEY (`idmultimedia`) ,
+  INDEX `fk_multimedia_producto1_idx` (`idProducto` ASC) ,
+  CONSTRAINT `fk_multimedia_producto1`
+    FOREIGN KEY (`idProducto` )
+    REFERENCES `Bikelltia`.`producto` (`idProducto` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
 USE `Bikelltia` ;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+insert into permisos values(1,'ver Gestionar Producto',1);
+insert into permisos values(2,'ver Gestionar Promocion',1);
+insert into permisos values(3,'ver Gestionar Blog',1);
+insert into permisos values(4,'ver Gestionar Reportes',1);
+
+insert into perfil values(1,'Administrador',1);
+insert into perfil values(2,'Contador',1);
+insert into perfil values(3,'Cliente',1);
+
+insert into perfilPermiso values(1, 1,'Gestion de Productos',1);
+insert into perfilPermiso values(2, 1,'Gestion de Promociones',1);
+insert into perfilPermiso values(3, 1,'Gestion del Blog',1);
+insert into perfilPermiso values(4, 2,'Generar Reportes ',1);
+
+insert into usuario values(1, 'dievacri','12345',1,1);
+insert into usuario values(2, 'massimo','massimo',1,2);
+insert into usuario values(3, 'ricardo','ricardo',1,3);
+
+insert into persona values(1, 'Diego','Vasquez','Crisostomo',956323829,2572999,'Av.Ariadna 180',1);
+insert into persona values(2, 'Massimo','Ludeña','Lezama',123456789,1234567,'Av.Chorrillos',2);
+insert into persona values(3, 'Ricardo','Vasquez','Perez',123456789,1234567,'Av.Molina',3);
