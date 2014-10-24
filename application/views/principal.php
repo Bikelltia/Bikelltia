@@ -1,6 +1,6 @@
 <div style="height:50px;margin-bottom:10px">
   <div>
-      <img src="/bikelltia/img/facebook_icono.ico" style="height:50px;width:50px"/>  
+      <img src="/bikelltia/public/img/facebook_icono.ico" style="height:50px;width:50px"/>  
       <button class="btn btn-large btn-primary" type="button">Large button</button>
       <button class="btn btn-large btn-primary" type="button">Large button</button>
       <button class="btn btn-large btn-primary" type="button">Large button</button>
@@ -45,25 +45,25 @@
       <div class="row" style="text-align:center;margin:0 auto;">
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO1</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">Detalle</a></p>
         </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
        </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>
@@ -72,25 +72,25 @@
 <div class="row" style="text-align:center;margin:0 auto;">
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO1</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
        </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>
         <div class="col-xs-4 col-sm-3 " style="background-color:#cce4fe;margin-top:4px">
           <h2>PRODUCTO2</h2>
-          <img src="/bikelltia/img/facebook_icono.ico" style="height:200px;width:100%"/>
+          <img src="/bikelltia/public/img/facebook_icono.ico" style="height:200px;width:100%"/>
 
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>

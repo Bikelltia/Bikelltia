@@ -4,13 +4,13 @@
 	</div>
 	<div class="panel-body">
 		<div id="items">
-			<img src="/bikelltia/img/floral1.jpg" class="imgItem" onclick="cambiar('/bikelltia/img/floral1.jpg')">
-			<img src="/bikelltia/img/floral2.jpg" class="imgItem" onclick="cambiar('/bikelltia/img/floral2.jpg')">
-			<img src="/bikelltia/img/floral3.jpg" class="imgItem" onclick="cambiar('/bikelltia/img/floral3.jpg')">
+			<img src="/bikelltia/public/img/floral1.jpg" class="imgItem" onclick="cambiar('/bikelltia/public/img/floral1.jpg')">
+			<img src="/bikelltiapublic//img/floral2.jpg" class="imgItem" onclick="cambiar('/bikelltia/public/img/floral2.jpg')">
+			<img src="/bikelltia/public/img/floral3.jpg" class="imgItem" onclick="cambiar('/bikelltia/public/img/floral3.jpg')">
 		</div>
 		<div id="view"> 
-			<a href="/bikelltia/img/floral1.jpg" class="classF"  title="FLORAL">  
-			    <img src="/bikelltia/img/floral1.jpg" class="imgView" name="flor" onmouseover="zoom(flor)">
+			<a href="/bikelltia/public/img/floral1.jpg" class="classF"  title="FLORAL">  
+			    <img src="/bikelltia/public/img/floral1.jpg" class="imgView" name="flor" onmouseover="zoom(flor)">
 			</a>
 		</div>
 		<div id="details">
@@ -21,7 +21,7 @@
 			<p>NUMERO DE COLORES: 12</p>	
 			<br>
 			<div id="colors">
-				<img src="/bikelltia/img/floral1.jpg" class="imgItem">
+				<img src="/bikelltia/public/img/floral1.jpg" class="imgItem">
 			</div>
 			<br>
 			<div class="btn-group">
